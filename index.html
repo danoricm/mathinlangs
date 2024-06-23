@@ -1,0 +1,27 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>Math Operations</title>
+    <script>
+        window.onload = function() {
+            var a = 5;
+            var b = 3;
+            var sum = a + b;
+            var diff = a - b;
+            var prod = a * b;
+            var quot = a / b;
+
+            document.getElementById("sum").innerText = "5 + 3 = " + sum;
+            document.getElementById("diff").innerText = "5 - 3 = " + diff;
+            document.getElementById("prod").innerText = "5 * 3 = " + prod;
+            document.getElementById("quot").innerText = "5 / 3 = " + quot;
+        };
+    </script>
+</head>
+<body>
+    <p id="sum"></p>
+    <p id="diff"></p>
+    <p id="prod"></p>
+    <p id="quot"></p>
+</body>
+</html>

@@ -1,0 +1,12 @@
+// datavar.nut
+local a = 5;
+local b = 3;
+local sum = a + b;
+local diff = a - b;
+local prod = a * b;
+local quot = a / b;
+
+print("5 + 3 = " + sum + "\n");
+print("5 - 3 = " + diff + "\n");
+print("5 * 3 = " + prod + "\n");
+print("5 / 3 = " + quot + "\n");

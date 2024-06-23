@@ -1,0 +1,15 @@
+current directory: /home/dddyo/Github/mathinlangs/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
+/home/dddyo/.rbenv/versions/3.0.6/bin/ruby -I /home/dddyo/.rbenv/versions/3.0.6/lib/ruby/3.0.0 -r ./siteconf20240623-2208818-eo88ry.rb extconf.rb
+creating Makefile
+
+current directory: /home/dddyo/Github/mathinlangs/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= clean
+
+current directory: /home/dddyo/Github/mathinlangs/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\=
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: /home/dddyo/Github/mathinlangs/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20240623-2208818-2lk68o

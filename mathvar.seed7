@@ -1,0 +1,13 @@
+$ mathvar.s7
+const var a is 5;
+const var b is 3;
+const var sum is a + b;
+const var diff is a - b;
+const var prod is a * b;
+const var quot is a / b;
+
+write("5 + 3 = ", sum, "\n");
+write("5 - 3 = ", diff, "\n");
+write("5 * 3 = ", prod, "\n");
+write("5 / 3 = ", quot, "\n");
+

@@ -1,0 +1,13 @@
+(* datavar.sml *)
+val a = 5
+val b = 3
+val sum = a + b
+val diff = a - b
+val prod = a * b
+val quot = a div b
+
+val () =
+    print ("5 + 3 = " ^ Int.toString sum ^ "\n");
+    print ("5 - 3 = " ^ Int.toString diff ^ "\n");
+    print ("5 * 3 = " ^ Int.toString prod ^ "\n");
+    print ("5 / 3 = " ^ Int.toString quot ^ "\n");
