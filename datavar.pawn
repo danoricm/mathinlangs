@@ -1,0 +1,12 @@
+// datavar.p
+new a = 5;
+new b = 3;
+new sum = a + b;
+new diff = a - b;
+new prod = a * b;
+new quot = a / b;
+
+printf("5 + 3 = %d\n", sum);
+printf("5 - 3 = %d\n", diff);
+printf("5 * 3 = %d\n", prod);
+printf("5 / 3 = %d\n", quot);

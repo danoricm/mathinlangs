@@ -1,0 +1,17 @@
+/* datavar.pli */
+DCL a FIXED DECIMAL(5) INIT(5);
+DCL b FIXED DECIMAL(5) INIT(3);
+DCL sum FIXED DECIMAL(5);
+DCL diff FIXED DECIMAL(5);
+DCL prod FIXED DECIMAL(5);
+DCL quot FIXED DECIMAL(5);
+
+sum = a + b;
+diff = a - b;
+prod = a * b;
+quot = a / b;
+
+PUT LIST('5 + 3 = ' || sum);
+PUT LIST('5 - 3 = ' || diff);
+PUT LIST('5 * 3 = ' || prod);
+PUT LIST('5 / 3 = ' || quot);
