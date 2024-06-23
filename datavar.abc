@@ -1,0 +1,8 @@
+PUT "5 + 3 IS "
+PUT 5 + 3
+PUT "5 - 3 IS "
+PUT 5 - 3
+PUT "5 * 3 IS "
+PUT 5 * 3
+PUT "5 / 3 IS "
+PUT 5 / 3
